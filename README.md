@@ -13,3 +13,5 @@ Puppet module for running arbitrary mysql scripts
 
   mysqlscript::run_script { 'create-db.sql': }
 ```
+
+Requires a 'mysql' class.
