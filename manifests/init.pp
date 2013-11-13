@@ -23,6 +23,6 @@ class mysqlscript (
       mode => "700",
   }
 
-  Class['mysql'] -> Class['mysqlscript']
+  Class['mysql::server'] -> Class['mysqlscript']
 
 }
