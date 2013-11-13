@@ -14,4 +14,4 @@ Puppet module for running arbitrary mysql scripts
   mysqlscript::run_script { 'create-db.sql': }
 ```
 
-Requires a 'mysql' class.
+Requires a 'mysql::server' class, like the one you get from the official Puppet Forge mysql module.
